@@ -16,5 +16,5 @@ Webpack
 
 # If changes are made 
 
-1. webpack will re-bundle the app for you automatically on file save.
+* webpack will re-bundle the app for you automatically on file save.
 
