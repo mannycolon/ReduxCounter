@@ -3,9 +3,10 @@ Implementing redux in a small counter app
 
 # Technologies used
 
-React
-NodeJS
-Webpack
+* React
+* NodeJS
+* Redux
+* Webpack
 
 # Instructions to run
 
