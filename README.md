@@ -3,12 +3,13 @@ Implementing redux in a small counter app
 
 # Instructions to run
 
-Navigate to folder /counter
-NPM install
-NPM run start
-Navigate to localhost:8080
+1. Navigate to folder /counter
+2. NPM install
+3. NPM run start
+4. Navigate to localhost:8080
 
 # If changes are made 
 
-Bundle the app again by running the 
-"webpack" command in the terminal
+1. webpack
+2. NPM run start
+3. Navigate to localhost:8080
