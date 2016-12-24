@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 
 //reducer
 const counterReducer = (state = 0, action) => {
@@ -24,13 +24,23 @@ const Counter = ({
   }) => (
     <div>
       <h1>{value}</h1>
+      <h1>hey</h1>
       <button onClick={onIncrement}>+</button>
       <button onClick={onDecrement}>-</button>
     </div>
 );
 
+//actionLogger
+const actionLogger = ({dispatch, getstate}) => (next) => (action) =>{
+  console.log(action);
+  return next(action)
+}
+
+//middleware
+const middleware = applyMiddleware(actionLogger);
+
 //store
-const store = createStore(counterReducer);
+const store = createStore(counterReducer, middleware);
 
 //provider component
 const render = () => {
