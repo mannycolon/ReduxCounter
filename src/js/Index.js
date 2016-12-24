@@ -24,7 +24,6 @@ const Counter = ({
   }) => (
     <div>
       <h1>{value}</h1>
-      <h1>hey</h1>
       <button onClick={onIncrement}>+</button>
       <button onClick={onDecrement}>-</button>
     </div>
@@ -61,8 +60,6 @@ const render = () => {
     document.getElementById('root')
   );
 }
-
-
-store.subscribe(render);
 //initializing state to 0
 render();
+store.subscribe(render);
