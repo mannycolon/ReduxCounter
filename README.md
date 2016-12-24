@@ -1,6 +1,12 @@
 # counter
 Implementing redux in a small counter app
 
+# Technologies used
+
+React
+NodeJS
+Webpack
+
 # Instructions to run
 
 1. Navigate to folder /counter
@@ -10,6 +16,5 @@ Implementing redux in a small counter app
 
 # If changes are made 
 
-1. webpack
-2. NPM run start
-3. Navigate to localhost:8080
+1. webpack will re-bundle the app for you automatically on file save.
+
