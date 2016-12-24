@@ -1,4 +1,4 @@
-# counter
+# ReduxCounter
 Implementing redux in a small counter app
 
 # Technologies used
