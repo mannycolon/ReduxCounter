@@ -1,7 +1,7 @@
 # ReduxCounter
 Implementing redux in a small counter app
 
-(https://github.com/mannycolon/ReduxCounter/blob/master/react-redux.jpg "redux")
+![redux](https://github.com/mannycolon/ReduxCounter/blob/master/react-redux.jpg "redux")
 
 # Technologies used
 
